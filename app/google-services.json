@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "766925603129",
+    "firebase_url": "https://feelthetour-516aa.firebaseio.com",
+    "project_id": "feelthetour-516aa",
+    "storage_bucket": "feelthetour-516aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766925603129:android:fb2d252d93347fd1",
+        "android_client_info": {
+          "package_name": "com.example.android.feelthetour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766925603129-n1q44e9g4kn6obn1jcmgi0cg06mtmjl7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "766925603129-n1q44e9g4kn6obn1jcmgi0cg06mtmjl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcGjirTg8ktH1JWvYL8bHsPNxle0d_amo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,34 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_welcome"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="10dp"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
-    android:paddingTop="10dp"
-    tools:context="com.example.android.feelthetour.WelcomeActivity">
+    android:fitsSystemWindows="true">
 
-    <TextView
+    <include layout="@layout/include_list_viewpager" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome!"/>
-    <Button
-        android:id="@+id/buttonLogout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Logout"
-        android:background="#1c1c6d"
-        android:textColor="@color/white"
-        android:layout_alignParentBottom="true"/>
-    <!--<Button-->
-        <!--android:id="@+id/button_logout_fb"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Fb Logout"-->
-        <!--android:background="#1c1c6d"-->
-        <!--android:textColor="@color/white"-->
-        <!--android:layout_margin="30dp"-->
-        <!--android:layout_above="@+id/buttonLogout"/>-->
-</RelativeLayout>
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header"
+        app:menu = "@menu/drawer_view" />
+
+</android.support.v4.widget.DrawerLayout>

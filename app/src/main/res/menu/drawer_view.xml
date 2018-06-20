@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/library_music"
+            android:title="Library" />
+        <item
+            android:id="@+id/nav_playlists"
+            android:icon="@drawable/playlist_play"
+            android:title="Playlists" />
+        <item
+            android:id="@+id/nav_folders"
+            android:icon="@drawable/ic_folder_open_black_24dp"
+            android:title="Folders" />
+        <item
+            android:id="@+id/nav_queue"
+            android:icon="@drawable/music_note"
+            android:title="Playing Queue" />
+        <item
+            android:id="@+id/nav_nowplaying"
+            android:icon="@drawable/bookmark_music"
+            android:checkable="false"
+            android:title="Now Playing" />
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon ="@drawable/settings"
+            android:title ="Settings" />
+
+        <item
+
+            android:id="@+id/nav_about"
+            android:icon="@drawable/information"
+            android:title="About" />
+
+        <item
+            android:id="@+id/nav_donate"
+            android:icon="@drawable/payment_black"
+            android:title ="Support development" />
+
+    </group>
+
+</menu>

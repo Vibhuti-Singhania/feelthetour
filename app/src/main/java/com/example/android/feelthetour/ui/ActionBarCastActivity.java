@@ -110,8 +110,8 @@ public abstract class ActionBarCastActivity extends AppCompatActivity {
         @Override
         public void onDrawerOpened(View drawerView) {
             if (mDrawerToggle != null) mDrawerToggle.onDrawerOpened(drawerView);
-            if (getSupportActionBar() != null) getSupportActionBar().setIcon(R.drawable.ic_menu);
-//                    .setTitle(R.string.app_name);
+            if (getSupportActionBar() != null) getSupportActionBar()
+                    .setTitle(R.string.app_name);
         }
     };
 
